@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+  border: 1px solid #d3d3d3;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px auto;
+  width: 500px;
+  height: 200px;
+  word-wrap: break-word;
+}
